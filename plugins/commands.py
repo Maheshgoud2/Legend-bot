@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('😎Owner', url='https://t.me/Pros_Movies_Empire')
+                InlineKeyboardButton('😎ᴏᴡɴᴇʀ', url='https://t.me/Pros_Movies_Empire')
             ],
             [
-                InlineKeyboardButton('😏 Jankari', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('😏ᴊᴀɴᴋᴀʀɪ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,18 +42,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ 𝒜𝒹𝒹 ℳℯ 𝒯ℴ 𝒴ℴ𝓊𝓇 𝒢𝓇ℴ𝓊𝓅𝓈 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝓒𝓱𝓪𝓷𝓷𝓮𝓵 1 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
-            InlineKeyboardButton('🔥 𝓒𝓱𝓪𝓷𝓷𝓮𝓵 2 🔥', url='https://t.me/+etAuU8Y9IeE1OGQ1')
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 1 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 2 🔥', url='https://t.me/+etAuU8Y9IeE1OGQ1')
             ],[
-            InlineKeyboardButton('🔥 𝓖𝓻𝓸𝓾𝓹 🔥', url='https://t.me/+Qgl9u-hN_7ZkYTVl'), 
+            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Anmol0700')
             ],[
-            InlineKeyboardButton('🔍 𝓢𝓮𝓪𝓻𝓬𝓱', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('😈 𝓞𝔀𝓷𝓮𝓻 😈', url='https://t.me/Anmol0700')
-            ],[
-            InlineKeyboardButton('ℹ️ 𝓗𝓮𝓵𝓹', callback_data='help'),
-            InlineKeyboardButton('😏 𝓐𝓫𝓸𝓾𝓽', callback_data='about')
+            InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😏 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,18 +91,16 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ 𝒜𝒹𝒹 ℳℯ 𝒯ℴ 𝒴ℴ𝓊𝓇 𝒢𝓇ℴ𝓊𝓅𝓈 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝓒𝓱𝓪𝓷𝓷𝓮𝓵 1 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
-            InlineKeyboardButton('🔥 𝓒𝓱𝓪𝓷𝓷𝓮𝓵 2 🔥', url='https://t.me/+etAuU8Y9IeE1OGQ1')
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 1 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 2 🔥', url='https://t.me/+etAuU8Y9IeE1OGQ1')
             ],[
-            InlineKeyboardButton('🔥 𝓖𝓻𝓸𝓾𝓹 🔥', url='https://t.me/+Qgl9u-hN_7ZkYTVl'), 
+            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Anmol0700')
             ],[
-            InlineKeyboardButton('🔍 𝓢𝓮𝓪𝓻𝓬𝓱', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('😈 𝓞𝔀𝓷𝓮𝓻 😈', url='https://t.me/Anmol0700')
-            ],[
-            InlineKeyboardButton('ℹ️ 𝓗𝓮𝓵𝓹', callback_data='help'),
-            InlineKeyboardButton('😏 𝓐𝓫𝓸𝓾𝓽', callback_data='about')
+            InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😏 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
