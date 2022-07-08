@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('😎ᴏᴡɴᴇʀ', url='https://t.me/Pros_Movies_Empire')
+                InlineKeyboardButton('😎ᴏᴡɴᴇʀ', url='https://t.me/Spiner84')
             ],
             [
                 InlineKeyboardButton('😏ᴊᴀɴᴋᴀʀɪ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
-            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/+Qgl9u-hN_7ZkYTVl')
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/+GVlqwWwEQzA1Y2Vl'),
+            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/Movies_requesting_group_all')
             ],[
             InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Anmol0700')
+            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Spiner84')
             ],[
             InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😏 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -93,11 +93,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
-            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/+Qgl9u-hN_7ZkYTVl')
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/+GVlqwWwEQzA1Y2Vl'),
+            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/Movies_requesting_group_all')
             ],[
             InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Anmol0700')
+            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Spiner84')
             ],[
             InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😏 ᴀʙᴏᴜᴛ', callback_data='about')
