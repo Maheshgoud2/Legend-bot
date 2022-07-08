@@ -1,13 +1,15 @@
 class script(object):
-    START_TXT = """👋ʜᴇʟʟᴏ {}, 
+    START_TXT = """𝑯𝒆𝒍𝒍𝒐 {}, 
     
-ɪᴛ'ꜱ ᴘᴏᴡᴇʀ ꜰᴜʟʟ <a href=https://t.me/{}>{}</a> ʜᴇʀᴇ 😎, 
-𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍
-ɪ𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂ɴ  """
+🙋‍𝑰 𝑨𝒎 𝑨𝒏 𝑺𝒖𝒑𝒆𝒓 𝑨𝒖𝒕𝒐𝒇𝒊𝒍𝒕𝒆𝒓𝒃𝒐𝒕 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑩𝒐𝒕 𝑻𝒐 𝑷𝒓𝒐𝒗𝒊𝒅𝒆 𝑴𝒐𝒗𝒊𝒆𝒔 𝑰𝒏 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑𝒔...
+
+ 😉𝑱𝒖𝒔𝒕 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝒘𝒊𝒕𝒉 𝑨𝒅𝒎𝒊𝒏 𝑹𝒊𝒈𝒉𝒕𝒔 𝑨𝒏𝒅 𝑺𝒆𝒆 𝑴𝒚 𝑴𝒂𝒈𝒊𝒄..💖
+
+ ❣️𝙾𝚆𝙽𝙴𝚁: ➳ ✰ @Spiner84 🤦  """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Pros_Movies_Empire>ᵀᵉᵃᵐ༒Legend࿐</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Anmol0700>ᵀᵉᵃᵐ༒Legend࿐</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -15,10 +17,10 @@ class script(object):
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗡𝗼𝘁 𝗔 𝗢𝗽𝗲𝗻 𝗦𝗼𝘂𝗿𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁. 
-- Source -  <a href=https://t.me/Pros_Movies_Empire>ᵀᵉᵃᵐ༒Legend࿐</a>
+- Source -  <a href=https://t.me/+zSBT7Ednrf9kN2Y1>ᵀᵉᵃᵐ༒Legend࿐</a>
 
 <b>DEVS:</b>
-- <a href=https://t.me/Pros_Movies_Empire>ᵀᵉᵃᵐ༒Legend࿐</a>"""
+- <a href=https://t.me/+zSBT7Ednrf9kN2Y1>ᵀᵉᵃᵐ༒Legend࿐</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
     
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
